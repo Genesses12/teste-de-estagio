@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.cabecalho-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 18px 54px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.img-logo {
+    height: 60px;
+    width: 120px;
+}
+
+.cabecalho-principal-nav-link {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+.titulo-pagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #666666;
+}
+
+.container {
+    display: grid;
+    width: 1420px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    padding: 18px 54px;
+}
+
+.card-1 {
+    padding: 12px;
+    grid-column: 1 / 4;
+}
+
+.card-2 {
+    padding: 12px;
+    grid-column: 4 / 7;
+}
+
+.card-3 {
+    padding: 12px;
+    grid-column: 7 / 10;
+}
+
+.card-4 {
+    padding: 12px;
+    grid-column: 10 / 13;
+}
+
+.conteudo-img-card {
+    display: flex;
+    flex-direction: column;
+    height: 202px;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.img-card {
+    flex-shrink: 0;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.data-card {
+    margin-bottom: 12px;
+}
+
+.titulo-card {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.texto-card {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #c8c8c8;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
